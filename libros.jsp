@@ -154,7 +154,15 @@ public Connection getConnection(String path) throws SQLException {
    <input type = "submit" value = "Buscar" id = "id_boton_buscar"/>
 </form>
 
- <a href="./listado-csv.jsp" download="libros.csv">Descargar Listado</a>
+ <a href="./listado-csv.jsp" download="libros.csv">Descargar Listado csv</a>
+ <br>
+ <a href="./listado-html.jsp" download="libros.html">Descargar Listado html</a>
+ <br>
+ <a href="./listado-txt.jsp" download="libros.html">Descargar Listado text</a>
+ <br>
+ <a href="./listado-json.jsp" download="libros.json">Descargar Listado json</a>
+ <br>
+ <a href="./listado-xml.jsp" download="libros.xml">Descargar Listado xml</a>
 
 
 <%
