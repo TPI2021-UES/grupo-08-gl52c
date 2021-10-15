@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.main-container__table {
+    table-layout: fixed;
+    overflow: hidden;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.main-container__td,
+.main-container__th{
+    border-top: 1px solid #b8adad;
+    border-left: none;
+    border-right: none;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
